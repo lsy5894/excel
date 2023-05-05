@@ -25,6 +25,8 @@ namespace excelConsoleApp
             worksheet.Cells[1, 2] = "나이";
             worksheet.Cells[2, 1] = "홍길동";
             worksheet.Cells[2, 2] = "30";
+            worksheet.Cells[3, 1] = "김철수";
+            worksheet.Cells[3, 2] = "28";
 
             // 파일 저장
             //string filePath = @"C:\example.xlsx";
